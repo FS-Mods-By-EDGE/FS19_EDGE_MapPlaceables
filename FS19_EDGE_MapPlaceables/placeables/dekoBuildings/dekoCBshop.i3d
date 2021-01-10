@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Crater Bay" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+    </Asset>
+    <Files>
+        <File fileId="30" filename="data/textures/craterBay/adFlagAll_specular.dds"/>
+        <File fileId="29" filename="data/textures/craterBay/adFlagJohnDeere_diffuse.dds"/>
+        <File fileId="17" filename="data/textures/craterBay/flowerPotsPlants_diffuse.png"/>
+        <File fileId="18" filename="data/textures/craterBay/flowerPotsPlants_normal.png"/>
+        <File fileId="19" filename="data/textures/craterBay/flowerPotsPlants_specular.png"/>
+        <File fileId="15" filename="data/textures/craterBay/industrialGuardHouseGlass_diffuse.png"/>
+        <File fileId="16" filename="data/textures/craterBay/industrialGuardHouseGlass_specular.png"/>
+        <File fileId="12" filename="data/textures/craterBay/industrialGuardHouse_diffuse.png"/>
+        <File fileId="13" filename="data/textures/craterBay/industrialGuardHouse_normal.png"/>
+        <File fileId="14" filename="data/textures/craterBay/industrialGuardHouse_specular.png"/>
+        <File fileId="24" filename="data/textures/craterBay/streetLightGlass_diffuse.png"/>
+        <File fileId="26" filename="data/textures/craterBay/streetLightGlass_specular.png"/>
+        <File fileId="21" filename="data/textures/craterBay/streetLight_diffuse.png"/>
+        <File fileId="28" filename="data/textures/craterBay/streetLight_emissive.png"/>
+        <File fileId="22" filename="data/textures/craterBay/streetLight_normal.png"/>
+        <File fileId="23" filename="data/textures/craterBay/streetLight_specular.png"/>
+        <File fileId="1" filename="data/textures/craterBay/vehicleShop_diffuse.dds"/>
+        <File fileId="2" filename="data/textures/craterBay/vehicleShop_normal.dds"/>
+        <File fileId="3" filename="data/textures/craterBay/vehicleShop_specular.dds"/>
+        <File fileId="6" filename="data/textures/craterBay/window02_diffuse.png"/>
+        <File fileId="7" filename="data/textures/craterBay/window03_specular.dds"/>
+        <File fileId="10" filename="data/textures/craterBay/window_specular.dds"/>
+        <File fileId="8" filename="data/textures/craterBay/windowsBlinds_diffuse.dds"/>
+        <File fileId="11" filename="data/textures/craterBay/windowsBlinds_emissive.dds"/>
+        <File fileId="25" filename="$data/maps/textures/shared/default_normal.png"/>
+        <File fileId="27" filename="$data/shaders/dashboardLightsShader.xml"/>
+        <File fileId="20" filename="$data/shaders/decalShader.xml"/>
+        <File fileId="31" filename="$data/shaders/flagShader.xml"/>
+        <File fileId="9" filename="$data/shared/defaultMetal_specular.dds"/>
+    </Files>
+    <Materials>
+        <Material name="adFlagJohnDeere_mat" materialId="28" customShaderId="31">
+            <Texture fileId="29"/>
+            <Normalmap fileId="25"/>
+            <Glossmap fileId="30"/>
+            <CustomParameter name="displacementSpeedFrequencyAndTexOff" value="0.28 5 0.37 0.26"/>
+        </Material>
+        <Material name="endCap_mat" materialId="198" diffuseColor="0.54902 0.54902 0.54902 1"/>
+        <Material name="flowerPotsPlants_mat" materialId="21" customShaderId="20">
+            <Texture fileId="17"/>
+            <Normalmap fileId="18"/>
+            <Glossmap fileId="19"/>
+        </Material>
+        <Material name="industrialGuardHouse_mat" materialId="33">
+            <Texture fileId="12"/>
+            <Normalmap fileId="13"/>
+            <Glossmap fileId="14"/>
+        </Material>
+        <Material name="industrialGuardHouseGlass_mat" materialId="306" alphaBlending="true">
+            <Texture fileId="15"/>
+            <Glossmap fileId="16"/>
+        </Material>
+        <Material name="lambert1" materialId="135" diffuseColor="0.494118 0.494118 0.494118 1"/>
+        <Material name="shed7Glass_mat" materialId="92" alphaBlending="true">
+            <Texture fileId="6"/>
+            <Glossmap fileId="10"/>
+        </Material>
+        <Material name="shopGlass_mat" materialId="415" alphaBlending="true">
+            <Texture fileId="6"/>
+            <Glossmap fileId="7"/>
+        </Material>
+        <Material name="streetLight_mat" materialId="293">
+            <Texture fileId="21"/>
+            <Normalmap fileId="22"/>
+            <Glossmap fileId="23"/>
+        </Material>
+        <Material name="streetLightGlass_mat" materialId="12" alphaBlending="true" customShaderId="27">
+            <Texture fileId="24"/>
+            <Normalmap fileId="25"/>
+            <Glossmap fileId="26"/>
+            <Custommap name="mEmissiveMap" fileId="28"/>
+            <CustomParameter name="lightControl" value="5 1 1 1"/>
+        </Material>
+        <Material name="vehicleShop_mat" materialId="80">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+        </Material>
+        <Material name="windowsBlindsDay_mat" materialId="435">
+            <Texture fileId="8"/>
+            <Glossmap fileId="9"/>
+        </Material>
+        <Material name="windowsBlindsNight_mat" materialId="171">
+            <Emissivemap fileId="11"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="dekoCBshop.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="House01" translation="267.503 58.3998 499.769" rotation="1.36604e-05 90 0" nodeId="44823">
+            <Shape shapeId="1" name="shop" clipDistance="400" nodeId="44824" materialIds="80" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="2" name="blocker" translation="0 1.744 -3.599" rotation="-90 -0 0" scale="16.925 1 4.67327" clipDistance="300" nodeId="44825" materialIds="198" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="col" visibility="false" static="true" nodeId="44826" materialIds="135" nonRenderable="true"/>
+            </Shape>
+            <TransformGroup name="shopWindowsDay" nodeId="44827">
+                <Shape shapeId="4" name="shopGlass" clipDistance="77" nodeId="44828" materialIds="415" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="5" name="shopWindows" clipDistance="400" nodeId="44829" materialIds="435" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="shopWindowsNight" nodeId="44830">
+                <Shape shapeId="4" name="shopGlassNight" clipDistance="77" nodeId="44831" materialIds="92" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="5" name="shopWindowNight" scale="1.0005 1 1.0005" clipDistance="400" nodeId="44832" materialIds="171" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <TransformGroup name="realLights" nodeId="44833">
+                    <Light name="light01" translation="-8.59692 1.95699 -1.59944" nodeId="44834" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light02" translation="-8.59692 1.95699 -0.0250563" nodeId="44835" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light03" translation="-8.59692 1.95699 1.56506" nodeId="44836" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light04" translation="-6.313 1.95699 3.78136" nodeId="44837" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light05" translation="-4.538 1.95699 3.78136" nodeId="44838" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light06" translation="-2.819 1.95699 3.78136" nodeId="44839" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light07" translation="2.819 1.95699 3.78136" nodeId="44840" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light08" translation="4.53824 1.95699 3.78136" nodeId="44841" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light09" translation="6.31345 1.95699 3.78136" nodeId="44842" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light10" translation="8.597 1.95699 1.56506" nodeId="44843" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light11" translation="8.597 1.95699 -0.0250563" nodeId="44844" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                    <Light name="light12" translation="8.597 1.95699 -1.59944" nodeId="44845" type="point" color="0.3 0.3 0.1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="2"/>
+                </TransformGroup>
+            </TransformGroup>
+            <Shape shapeId="6" name="guardHouse" translation="-9.88696 3.8147e-06 5.26299" rotation="-6.857e-07 -0 0" scale="1 1 1.3" clipDistance="100" nodeId="44820" materialIds="33" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="7" name="glass" clipDistance="50" nodeId="44821" materialIds="306" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="8" name="col" visibility="false" static="true" density="0.0001" nodeId="44822" materialIds="135" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="9" name="streetPot01" translation="-2.75174e-07 0 6.29524" rotation="-1.36604e-05 -90 0" clipDistance="120" nodeId="44206" materialIds="80" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="10" name="flowers01" translation="0 0.00789435 0" clipDistance="60" nodeId="44207" materialIds="21" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="11" name="col" translation="-0.00392498 0 0" scale="1.95567 1 1.07551" visibility="false" static="true" nodeId="44208" materialIds="135" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="12" name="streetLight" rotation="0 90 0" clipDistance="120" nodeId="44240" materialIds="293" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="illum" nodeId="44241">
+                    <Shape shapeId="13" name="glass" translation="0 0 0.000256801" clipDistance="120" nodeId="44242" materialIds="12" castsShadows="true" receiveShadows="true"/>
+                    <Light name="spotLight2" translation="-2.08664 7.78821 -5.2363e-07" rotation="-90 0 0" visibility="false" clipDistance="120" nodeId="44243" type="spot" color="0.45 0.45 0.45" emitDiffuse="true" emitSpecular="true" decayRate="1" range="15" coneAngle="100" dropOff="1"/>
+                </TransformGroup>
+            </Shape>
+            <Shape shapeId="14" name="adFlagJohnDeere" rotation="0 45 0" clipDistance="166" nodeId="44511" materialIds="28" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="44827">
+            <Attribute name="onCreate" type="scriptCallback" value="SunAdmirer.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="44830">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="44832">
+            <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+        </UserAttribute>
+        <UserAttribute nodeId="44241">
+            <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

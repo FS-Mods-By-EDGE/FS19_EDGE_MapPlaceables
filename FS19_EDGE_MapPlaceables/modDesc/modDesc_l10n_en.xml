@@ -26,13 +26,18 @@
 		<text name="name_OceanBeach"    				text="Ocean Beach"/>
 		<text name="OceanBeach"    						text="Ocean Beach"/>
 		<text name="function_OceanBeach"    			text="Ocean Beach Selling Station."/>
-		<text name="name_messSS"    					text="Mess Hall"/>
-		<text name="messSS"    							text="Mess hall Grains"/>
-		<text name="function_messSS"    				text="Mess Hall Selling Station."/>
+		<text name="name_goldenPlum"    				text="Golden Plum Brewery"/>
+		<text name="goldenPlum"    						text="Golden Plum"/>
+		<text name="function_goldenPlum"    			text="Golden Plum Brewery Selling Station."/>
+		<text name="name_northStar"    					text="North Star Corp"/>
+		<text name="northStar"    						text="North Star"/>
+		<text name="function_northStar"    				text="North Star Selling Station."/>
         <text name="name_ssBales"						text="Straw Barn"/>
         <text name="ssBales"							text="Straw Barn"/>
 		<text name="function_shopSS"    				text="Straw Barn Selling Station."/>
-		<text name="name_EDGE_Sign"    					text="EDGE Sign"/>
+		<text name="name_EDGE_squareSign"    			text="EDGE Square Sign"/>
+		<text name="name_EDGE_roundSign"    			text="EDGE Round Sing"/>
+		<text name="name_EDGE_bannerSign"    			text="EDGE Banner Sign"/>
 		<text name="function_EDGE_Sign"					text="This sign will earn you a small amount of advertisement revenue."/>
 		<text name="name_WaterWell"    					text="Water Well"/>
 		<text name="function_WaterWell"    				text="A well where you can get free water"/>

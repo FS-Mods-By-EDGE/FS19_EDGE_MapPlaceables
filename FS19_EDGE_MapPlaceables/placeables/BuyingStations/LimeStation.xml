@@ -2,7 +2,15 @@
 <placeable>
     <storeData>
         <name>$l10n_shopItem_limeStation</name>
-        <image>$data/store/store_empty.png</image>
+        <functions>
+            <function>$l10n_function_buyingStation</function>
+            <function>$l10n_function_EDGELights</function>
+            <function>$l10n_function_limeStation</function>
+        </functions>
+        <specs>
+            <fillTypes>lime</fillTypes>
+        </specs>
+        <image>store/store_limeStation.dds</image>
         <price>5000</price>
         <canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
@@ -17,8 +25,7 @@
     <filename>placeables/BuyingStations/limeStation.i3d</filename>
     <placement testSizeX="6" testSizeZ="9.5" sizeX="6" sizeZ="9.5" useRandomYRotation="false" useManualYRotation="true"/>
     <dayNightObjects>
-        <dayNightObject node="5|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
-        <dayNightObject node="6|1" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="5|0|0" visibleDay="true" visibleNight="true" intensityNight="0.6" intensityDay="1"/>
     </dayNightObjects>
     <clearAreas>
         <clearArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1"/>

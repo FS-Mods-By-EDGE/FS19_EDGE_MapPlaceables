@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
  <storeData>
-  <name>$l10n_shopItem_bgaExtension</name>
+  <name>$l10n_name_bgaExtension</name>
   <functions>
    <function>$l10n_function_bgaExtension</function>
   </functions>
@@ -9,12 +9,12 @@
    <capacity>200000</capacity>
    <fillTypes>digestate</fillTypes>
   </specs>
-  <image>store/store_bgaExtension.png</image>
+  <image>store/store_bgaExtension.dds</image>
   <price>30000</price>
   <lifetime>1000</lifetime>
   <dailyUpkeep>30</dailyUpkeep>
   <rotation>0</rotation>
-  <brand>AJTECH</brand>
+  <brand>EDGE</brand>
   <species>placeable</species>
   <category>silos</category>
  </storeData>

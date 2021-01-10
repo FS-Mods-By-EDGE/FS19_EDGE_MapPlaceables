@@ -175,7 +175,24 @@ Elenco modifiche 1.0.0.0:
     <multiplayer supported="true"/>
     <storeItems>
         <storeItem xmlFilename="placeables/props/EdgeSign.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Destillery.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_GoldenPlum.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_LemonWays.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_LimaGrain.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Mill.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_NorthStar.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_OceanBeach.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Train.xml"/>
         <storeItem xmlFilename="placeables/BunkerSilos/oldBunkerSilo.xml"/>
+        <storeItem xmlFilename="placeables/doormat/doormat.xml"/>
+        <storeItem xmlFilename="placeables/bga/bga.xml"/>
+        <storeItem xmlFilename="placeables/bga/bgaDark.xml"/>
+        <storeItem xmlFilename="placeables/bga/bgaExtension.xml"/>
+        <storeItem xmlFilename="placeables/bga/bgaExtensionDark.xml"/>
+        <storeItem xmlFilename="placeables/props/EDGE_roundSign.xml"/>
+        <storeItem xmlFilename="placeables/props/EDGE_bannerSign.xml"/>
+        <storeItem xmlFilename="placeables/props/EDGE_squareSign.xml"/>
     </storeItems>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
@@ -187,6 +204,12 @@ Elenco modifiche 1.0.0.0:
         <brand name="OCEANBEACH" title="Ocean Beach" image="store/OceanBeach_Brand_Logo.dds"/>
     </brands>
 	<l10n filenamePrefix="modDesc/modDesc_l10n">
+        <text name="action_turnOnSwitchBox">
+            <en>Show Switchbox</en>
+        </text>
+        <text name="action_turnOffSwitchBox">
+            <en>Hide Switchbox</en>
+        </text>
         <text name="action_turnOnMarking">
             <en>Show warning Stripes</en>
             <de>Eckmarkierungen einblenden</de>
@@ -213,6 +236,72 @@ Elenco modifiche 1.0.0.0:
             <ru>Это здание имеет автоматическое освещение.</ru>
             <pl>Ten budynek ma automatyczne oświetlenie.</pl>
             <it>Questo edificio ha l'illuminazione automatica.</it>
+        </text>
+        <text name="action_turnOnIcon">
+            <en>Show Trigger Icon</en>
+        </text>
+        <text name="action_turnOffIcon">
+            <en>Hide Trigger Icon</en>
+        </text>
+        <text name="name_farmHouseDoormat">
+            <en>Farm house Doormat</en>
+            <de>Bauernhof Fußmatte</de>
+            <fr>Paillasson maison de ferme</fr>
+            <ru>Коврик</ru>
+        </text>
+        <text name="function_farmHouseDoormat">
+            <en>A farm house doormat with sleep trigger and spawn point</en>
+            <de>Eine Bauernhaus Fußmatte mit Sleep Trigger und Spawn Point</de>
+            <fr>Paillasson de ferme avec déclencheur de sommeil et point d'apparition</fr>
+            <ru> Дверной коврик у фермерского дома с триггером сна и точкой возрождения</ru>
+        </text>
+        <text name="farmHouseDoormat">
+            <en>Doormat</en>
+            <de>Fußmatte</de>
+            <fr>Paillasson</fr>
+            <ru>Коврик</ru>
+        </text>
+        <text name="name_smallBGA">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+            <ru>Небольшой Биогаз</ru>
+        </text>
+        <text name="name_smallBGADark">
+            <en>Small BGA Dark</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+            <ru>Небольшой Биогаз</ru>
+        </text>
+        <text name="function_smallBGA">
+            <en>A small placeable BGA, Pays out at midnight</en>
+            <de>Eine kleine platzierbare BGA, zahlt sich um Mitternacht aus</de>
+            <fr>Un petit BGA placable, paye à minuit</fr>
+            <ru>Небольшой Биогаз, выплачивающий в полночь</ru>
+        </text>
+        <text name="smallBGA">
+            <en>BGA</en>
+            <de>BGA</de>
+            <fr>BGA</fr>
+            <ru>Небольшой Биогаз</ru>
+        </text>
+        <text name="name_bgaExtension">
+            <en>BGA Digestate Extension Tank</en>
+            <de>BGA Verdauen Ausgleichsbehälter</de>
+            <fr>BGA Réservoir d'extension de digestat</fr>
+            <ru>Расширительный бак Биогаза</ru>
+        </text>
+        <text name="name_bgaExtensionDark">
+            <en>BGA Digestate Extension Tank Dark</en>
+            <de>BGA Verdauen Ausgleichsbehälter</de>
+            <fr>BGA Réservoir d'extension de digestat</fr>
+            <ru>Расширительный бак Биогаза</ru>
+        </text>
+        <text name="function_bgaExtension">
+            <en>Increases the Digestate storage capacity</en>
+            <de>Erhöht die Digestate-Speicherkapazität</de>
+            <fr>Augmente la capacité de stockage Digestate</fr>
+            <ru>Увеличивает емкость хранилища Дигестата. </ru>
         </text>
      <text name="ssvsGrains">
       <en>Vehicle Shop Grains</en>
@@ -444,11 +533,6 @@ Elenco modifiche 1.0.0.0:
       <de>Hackschnitzel</de>
       <fr>Les copeaux de bois</fr>
      </text>
-     <text name="shopItem_farmHouseDoormat">
-      <en>Farm house doormat</en>
-      <de>Bauernhof Fußmatte</de>
-      <fr>Paillasson maison de ferme</fr>
-     </text>
      <text name="function_liquidStorage">
       <en>Liquid storage tanks</en>
       <de>Flüssigkeitslagertanks</de>
@@ -578,11 +662,6 @@ Elenco modifiche 1.0.0.0:
       <en>Turn Windmill on/off</en>
       <de>Schalten an/aus</de>
       <fr>Éteignez allumées/éteintes</fr>
-     </text>
-     <text name="function_farmHouseDoormat">
-      <en>A farm house doormat with sleep trigger and spawn point</en>
-      <de>Eine Bauernhaus Fußmatte mit Sleep Trigger und Spawn Point</de>
-      <fr>Paillasson de ferme avec déclencheur de sommeil et point d'apparition</fr>
      </text>
     </l10n>
     <credits><![CDATA[

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/maps/textures/european/props/lightPoleSetGlass_diffuse.png"/>
+    <File fileId="6" filename="$data/maps/textures/european/props/lightPoleSetGlass_specular.png"/>
+    <File fileId="1" filename="$data/maps/textures/european/props/lightPoleSet_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/textures/european/props/lightPoleSet_emissive.png"/>
+    <File fileId="2" filename="$data/maps/textures/european/props/lightPoleSet_normal.png"/>
+    <File fileId="3" filename="$data/maps/textures/european/props/lightPoleSet_specular.png"/>
+    <File fileId="9" filename="$data/maps/textures/european/props/propsDecals_diffuse.png"/>
+    <File fileId="11" filename="$data/maps/textures/european/props/propsDecals_specular.png"/>
+    <File fileId="10" filename="$data/maps/textures/shared/default_normal.png"/>
+    <File fileId="7" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="12" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="5" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="271" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lightPoleSet_mat" materialId="289">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lightPoleSetGlass_mat" materialId="18" alphaBlending="true" customShaderId="7">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+      <Custommap name="mEmissiveMap" fileId="8"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="propsDecals_mat" materialId="308" alphaBlending="true" customShaderId="12">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="dekoEULights.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="streetLightPoleSmall" translation="-127.085 160.739 504.312" clipDistance="50" nodeId="10700" materialIds="289" castsShadows="true" receiveShadows="true">
+      <TransformGroup name="illum" nodeId="10701">
+        <Shape shapeId="2" name="glass" clipDistance="50" nodeId="10702" materialIds="18" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0 3.49893 1.04711e-15" rotation="-90 0 0" visibility="false" clipDistance="75" nodeId="10703" type="spot" color="0.45 0.45 0.45" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="100" dropOff="1"/>
+      </TransformGroup>
+      <Shape shapeId="3" name="decals" clipDistance="30" nodeId="10704" materialIds="308" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+      <Shape shapeId="4" name="col" visibility="false" static="true" density="0.0001" nodeId="10705" materialIds="271" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="10701">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
