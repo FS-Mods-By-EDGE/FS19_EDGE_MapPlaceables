@@ -100,6 +100,9 @@
                 </part>
             </animation>
             <controls triggerNode="1|3|2|0" posAction="ACTIVATE_HANDTOOL" posText="action_turnOnSwitchBox" negText="action_turnOffSwitchBox"/>
+            <sounds>
+                <moving file="$data/sounds/player/flashlight/flashlight.ogg" loops="1" linkNode="1|3|2|1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+            </sounds>
         </animatedObject>
 		<animatedObject saveId="switch_03">
             <animation duration="0.5">

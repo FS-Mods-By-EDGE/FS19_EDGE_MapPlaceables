@@ -14,11 +14,11 @@
     <File fileId="11" filename="../textures/craterBay/grungeDecalRust_diffuse.png"/>
     <File fileId="12" filename="../textures/craterBay/grungeDecalRust_normal.png"/>
     <File fileId="18" filename="../textures/craterBay/unloadingStation_specular.dds"/>
-    <File fileId="15" filename="../textures/shared/buildingsArray_diffuse.dds"/>
-    <File fileId="16" filename="../textures/shared/buildingsArray_normal.dds"/>
-    <File fileId="17" filename="../textures/shared/buildingsArray_specular.dds"/>
-    <File fileId="8" filename="../textures/terrain/roughDirt01_normal.png"/>
-    <File fileId="7" filename="../textures/terrain/roughDirtSA01_diffuse.png"/>
+    <File fileId="15" filename="../textures/craterBay/buildingsArray_diffuse.dds"/>
+    <File fileId="16" filename="../textures/craterBay/buildingsArray_normal.dds"/>
+    <File fileId="17" filename="../textures/craterBay/buildingsArray_specular.dds"/>
+    <File fileId="8" filename="../textures/craterBay/roughDirt01_normal.png"/>
+    <File fileId="7" filename="../textures/craterBay/roughDirtSA01_diffuse.png"/>
     <File fileId="5" filename="$data/shaders/buildingShader.xml"/>
   </Files>
 
