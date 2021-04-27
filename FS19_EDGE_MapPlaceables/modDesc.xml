@@ -174,9 +174,8 @@ Elenco modifiche 1.0.0.0:
     <iconFilename>EDGE_Placeables_Icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
-        <storeItem xmlFilename="placeables/props/EdgeSign.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation.xml"/>
-        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Destillery.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Distillery.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_GoldenPlum.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_LemonWays.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_LimaGrain.xml"/>
@@ -193,6 +192,10 @@ Elenco modifiche 1.0.0.0:
         <storeItem xmlFilename="placeables/props/EDGE_roundSign.xml"/>
         <storeItem xmlFilename="placeables/props/EDGE_bannerSign.xml"/>
         <storeItem xmlFilename="placeables/props/EDGE_squareSign.xml"/>
+        <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDoubleOpen_M.xml"/>
+        <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_XL.xml"/>
+        <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_L.xml"/>
+        <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_M.xml"/>
     </storeItems>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>

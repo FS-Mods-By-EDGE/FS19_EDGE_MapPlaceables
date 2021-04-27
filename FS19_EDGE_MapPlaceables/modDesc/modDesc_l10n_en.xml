@@ -13,13 +13,11 @@
 		<text name="Limagrain"    						text="Lima Grain"/>
 		<text name="function_Limagrain"    				text="Lima Grain Selling Station."/>
 		<text name="name_Lemonways"    					text="Lemonways"/>
+		<text name="Lemonways"    						text="LemonWays"/>
 		<text name="function_Lemonways"    				text="LemonWays Selling Station."/>
 		<text name="name_distillery"    				text="Distillery"/>
 		<text name="distillery"    						text="Distillery"/>
 		<text name="function_distillery"    			text="A Distillery Selling Station."/>
-		<text name="name_Lemonways"    					text="Lemonways"/>
-		<text name="Lemonways"    						text="LemonWays"/>
-		<text name="function_Lemonways"    				text="LemonWays Selling Station."/>
 		<text name="name_mill"    						text="Sugar Mill"/>
 		<text name="mill"         						text="Sugar Mill"/>
 		<text name="function_mill"    					text="Sugar Mill Selling Station."/>

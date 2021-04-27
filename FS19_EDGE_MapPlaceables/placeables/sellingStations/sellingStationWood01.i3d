@@ -2,20 +2,22 @@
 
 <i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
   </Asset>
 
   <Files>
-    <File fileId="2" filename="../TriggerIcons/data/textures/triggers/triggerIcons_diffuse.dds"/>
-    <File fileId="3" filename="$data/shaders/fxCircleShader.xml"/>
+    <File fileId="3" filename="../textures/huds/triggerIconsGradient_diffuse.dds"/>
+    <File fileId="2" filename="../textures/huds/triggerIcons_diffuse.dds"/>
+    <File fileId="4" filename="$data/shaders/fxCircleShader.xml"/>
   </Files>
 
 
   <Materials>
     <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
-    <Material name="triggerIcons_mat" materialId="5" alphaBlending="true" customShaderId="3" customShaderVariation="PULSATING">
-      <Emissivemap fileId="2"/>
+    <Material name="triggerIcons_mat" materialId="5" alphaBlending="true" customShaderId="4" customShaderVariation="PULSATING">
+      <Texture fileId="2"/>
+      <Emissivemap fileId="3"/>
       <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
     </Material>
   </Materials>

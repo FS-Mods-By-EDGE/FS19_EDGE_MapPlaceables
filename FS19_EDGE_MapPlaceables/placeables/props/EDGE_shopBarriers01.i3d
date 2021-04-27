@@ -6,12 +6,12 @@
   </Asset>
 
   <Files>
-    <File fileId="8" filename="../dekoBuildings/data/textures/craterBay/textures/FS17/back_of_sign_so_not_enter.png"/>
-    <File fileId="6" filename="../dekoBuildings/data/textures/craterBay/textures/FS17/barrier_diffuse.png"/>
-    <File fileId="7" filename="../dekoBuildings/data/textures/craterBay/textures/FS17/sign_do_not_enter.png"/>
-    <File fileId="1" filename="../dekoBuildings/data/textures/craterBay/vehicleShop_diffuse.dds"/>
-    <File fileId="2" filename="../dekoBuildings/data/textures/craterBay/vehicleShop_normal.dds"/>
-    <File fileId="3" filename="../dekoBuildings/data/textures/craterBay/vehicleShop_specular.dds"/>
+    <File fileId="8" filename="../textures/back_of_sign_so_not_enter.png"/>
+    <File fileId="6" filename="../textures/barrier_diffuse.png"/>
+    <File fileId="7" filename="../textures/sign_do_not_enter.png"/>
+    <File fileId="1" filename="../textures/vehicleShop_diffuse.dds"/>
+    <File fileId="2" filename="../textures/vehicleShop_normal.dds"/>
+    <File fileId="3" filename="../textures/vehicleShop_specular.dds"/>
   </Files>
 
 
