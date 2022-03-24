@@ -6,11 +6,14 @@
    <function>$l10n_function_farmHouse</function>
   </functions>
   <image>store/store_woodenHouse.dds</image>
+  <boughtWithFarmland>true</boughtWithFarmland>
   <price>35000</price>
   <dailyUpkeep>35</dailyUpkeep>
   <lifetime>1000</lifetime>
   <rotation>0</rotation>
   <brand>AJTECH</brand>
+  <canBeSold>true</canBeSold>
+  <showInStore>true</showInStore>
   <species>placeable</species>
   <category>farmhouses</category>
  </storeData>

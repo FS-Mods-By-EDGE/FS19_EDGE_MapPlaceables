@@ -24,7 +24,7 @@
  <incomePerHour2>500</incomePerHour2>
  <incomePerHour3>250</incomePerHour3>
 
- <windTurbine headNode="0|0" rotationNode="0|0|0" />
+ <windTurbine headNode="0>2|0|1" rotationNode="0>2|0|1" />
 
  <clearAreas>
   <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>

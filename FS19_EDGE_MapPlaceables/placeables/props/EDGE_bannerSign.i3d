@@ -58,7 +58,7 @@
 
   <Scene>
     <TransformGroup name="sign" nodeId="16">
-      <Shape shapeId="1" name="woodenPost" static="true" angularDamping="0.1" rollingFriction="0.17" density="0.47" clipDistance="1500" nodeId="17" materialIds="7" castsShadows="true" receiveShadows="true" splitType="0" splitUvs="0.834473 0.676527 1 1 1">
+      <Shape shapeId="1" name="woodenPost" static="true" angularDamping="0.1" rollingFriction="0.17" density="0.47" clipDistance="1500" nodeId="17" materialIds="7" castsShadows="true" receiveShadows="true">
         <Shape shapeId="2" name="banner" translation="0 1.5299 0.0840652" scale="3 3 2" clipDistance="300" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true">
           <Shape shapeId="3" name="logoBanner" clipDistance="300" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true"/>
           <Shape shapeId="4" name="sign" translation="0 0 -0.0154388" scale="1.33287 0.65858 1" static="true" clipDistance="300" nodeId="20" materialIds="4" castsShadows="true" receiveShadows="true"/>

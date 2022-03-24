@@ -6,7 +6,7 @@
   </Asset>
 
   <Files>
-    <File fileId="26" filename="C:/Users/LilleMats/OneDrive/Documents/My Games/FarmingSimulator2019/mods/FS19_bunkerSiloSet/textures/groundStains_diffuse.png"/>
+    <File fileId="26" filename="../textures/groundStains_diffuse.png"/>
     <File fileId="1" filename="../textures/Concrete00_diffuse.dds"/>
     <File fileId="2" filename="../textures/Concrete00_normal.dds"/>
     <File fileId="3" filename="../textures/Concrete00_specular.dds"/>

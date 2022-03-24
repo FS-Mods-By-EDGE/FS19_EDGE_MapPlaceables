@@ -182,7 +182,10 @@ Elenco modifiche 1.0.0.0:
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_Mill.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_NorthStar.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_OceanBeach.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStation_Shop.xml"/>
         <storeItem xmlFilename="placeables/sellingStations/sellingStation_Train.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationBales.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/workshop.xml"/>
         <storeItem xmlFilename="placeables/BunkerSilos/oldBunkerSilo.xml"/>
         <storeItem xmlFilename="placeables/doormat/doormat.xml"/>
         <storeItem xmlFilename="placeables/bga/bga.xml"/>
@@ -196,6 +199,8 @@ Elenco modifiche 1.0.0.0:
         <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_XL.xml"/>
         <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_L.xml"/>
         <storeItem xmlFilename="placeables/BunkerSilos/BunkerSiloDouble_M.xml"/>
+        <storeItem xmlFilename="placeables/BuyingStations/gasStation01.xml"/>
+        <storeItem xmlFilename="placeables/BuyingStations/gasStation02.xml"/>
     </storeItems>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
@@ -205,6 +210,7 @@ Elenco modifiche 1.0.0.0:
         <brand name="FLUXEON" title="Flux Eon Inc" image="store/FluxEon_Brand_Logo.dds"/>
         <brand name="GOLDENPLUM" title="The Golden Plum" image="store/GoldenPlum_Brand_Logo.dds"/>
         <brand name="OCEANBEACH" title="Ocean Beach" image="store/OceanBeach_Brand_Logo.dds"/>
+        <brand name="FK" title="Felleskjopet" image="store/FK_Brand_Logo.dds"/>
     </brands>
 	<l10n filenamePrefix="modDesc/modDesc_l10n">
         <text name="action_turnOnSwitchBox">

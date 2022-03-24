@@ -58,7 +58,7 @@
 
   <Scene>
     <TransformGroup name="sign" nodeId="15">
-      <Shape shapeId="1" name="woodenPost" static="true" angularDamping="0.1" rollingFriction="0.17" density="0.47" clipDistance="1500" nodeId="16" materialIds="7" castsShadows="true" receiveShadows="true" splitType="0" splitUvs="0.834473 0.676527 1 1 1">
+      <Shape shapeId="1" name="woodenPost" static="true" angularDamping="0.1" rollingFriction="0.17" density="0.47" clipDistance="1500" nodeId="16" materialIds="7" castsShadows="true" receiveShadows="true">
         <Shape shapeId="2" name="signRound" translation="0 1.43292 0.0505883" scale="3 3 2" static="true" clipDistance="300" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true">
           <Shape shapeId="3" name="logoRound" clipDistance="300" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true"/>
         </Shape>

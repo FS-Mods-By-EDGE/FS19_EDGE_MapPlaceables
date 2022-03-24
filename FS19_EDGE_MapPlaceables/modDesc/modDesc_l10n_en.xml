@@ -33,6 +33,9 @@
         <text name="name_ssBales"						text="Straw Barn"/>
         <text name="ssBales"							text="Straw Barn"/>
 		<text name="function_shopSS"    				text="Straw Barn Selling Station."/>
+		<text name="name_FK"    						text="FK Hall"/>
+		<text name="function_FK"    					text="FK Selling Station."/>
+		<text name="FK"    								text="Felleskjopet"/>
 		<text name="name_EDGE_squareSign"    			text="EDGE Square Sign"/>
 		<text name="name_EDGE_roundSign"    			text="EDGE Round Sing"/>
 		<text name="name_EDGE_bannerSign"    			text="EDGE Banner Sign"/>
